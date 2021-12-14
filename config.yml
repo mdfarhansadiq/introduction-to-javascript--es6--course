@@ -1,0 +1,16 @@
+title: introduction to javascript (es6)
+description: Course
+template:
+  repo: introduction-to-javascript-(es6)-template
+  name: introduction-to-javascript-(es6)
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
